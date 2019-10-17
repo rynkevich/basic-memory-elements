@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+basic_memory_elements=.\basic_memory_elements\basic_memory_elements.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+basic_memory_elements=1

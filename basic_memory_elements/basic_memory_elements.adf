@@ -1,0 +1,115 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=basic_memory_elements
+
+[Library]
+basic_memory_elements=.\basic_memory_elements\basic_memory_elements.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+basic_memory_elements=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=bistable_element_tb|tb|0 d_flip_flop_tb|tb|0 d_latch_tb|tb|0 gated_d_flip_flop|behavioral|0 gated_d_flip_flop_tb|tb|0 gated_d_latch_tb|tb|0 ms_d_flip_flop_tb|tb|0 rs_latch_tb|tb|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+bistable_element=1
+bistable_element\tb=1
+basic_elements=1
+rs_latch=1
+rs_latch\tb=1
+d_latch=1
+d_latch\tb=1
+gated_d_latch=1
+gated_d_latch\tb=1
+ms_d_flip_flop=1
+ms_d_flip_flop\tb=1
+d_flip_flop=1
+d_flip_flop\tb=1
+gated_d_flip_flop=1
+gated_d_flip_flop\tb=1
+
+[Files]
+bistable_element/bistable_element.vhd=-1
+bistable_element\tb/bistable_element_tb_runtest.do=-1
+bistable_element\tb/bistable_element_tb.vhd=-1
+basic_elements/and2.vhd=-1
+basic_elements/nor2.vhd=-1
+basic_elements/inv.vhd=-1
+rs_latch/rs_latch.vhd=-1
+rs_latch\tb/rs_latch_tb_runtest.do=-1
+rs_latch\tb/rs_latch_tb.vhd=-1
+d_latch/d_latch.vhd=-1
+d_latch\tb/d_latch_tb_runtest.do=-1
+d_latch\tb/d_latch_tb.vhd=-1
+gated_d_latch/gated_d_latch.vhd=-1
+gated_d_latch\tb/gated_d_latch_tb_runtest.do=-1
+gated_d_latch\tb/gated_d_latch_tb.vhd=-1
+ms_d_flip_flop/ms_d_flip_flop.vhd=-1
+ms_d_flip_flop\tb/ms_d_flip_flop_runtest.do=-1
+ms_d_flip_flop\tb/ms_d_flip_flop_tb.vhd=-1
+d_flip_flop/d_flip_flop.vhd=-1
+d_flip_flop\tb/d_flip_flop_tb_runtest.do=-1
+d_flip_flop\tb/d_flip_flop_tb.vhd=-1
+gated_d_flip_flop/gated_d_flip_flop.vhd=-1
+gated_d_flip_flop\tb/gated_d_flip_flop_tb_runtest.do=-1
+gated_d_flip_flop\tb/gated_d_flip_flop_tb.vhd=-1
+
+[Files.Data]
+.\src\bistable_element\bistable_element.vhd=VHDL Source Code
+.\src\bistable_element\tb\bistable_element_tb_runtest.do=Macro
+.\src\bistable_element\tb\bistable_element_tb.vhd=VHDL Source Code
+.\src\basic_elements\and2.vhd=VHDL Source Code
+.\src\basic_elements\nor2.vhd=VHDL Source Code
+.\src\basic_elements\inv.vhd=VHDL Source Code
+.\src\rs_latch\rs_latch.vhd=VHDL Source Code
+.\src\rs_latch\tb\rs_latch_tb_runtest.do=Macro
+.\src\rs_latch\tb\rs_latch_tb.vhd=VHDL Source Code
+.\src\d_latch\d_latch.vhd=VHDL Source Code
+.\src\d_latch\tb\d_latch_tb_runtest.do=Macro
+.\src\d_latch\tb\d_latch_tb.vhd=VHDL Source Code
+.\src\gated_d_latch\gated_d_latch.vhd=VHDL Source Code
+.\src\gated_d_latch\tb\gated_d_latch_tb_runtest.do=Macro
+.\src\gated_d_latch\tb\gated_d_latch_tb.vhd=VHDL Source Code
+.\src\ms_d_flip_flop\ms_d_flip_flop.vhd=VHDL Source Code
+.\src\ms_d_flip_flop\tb\ms_d_flip_flop_runtest.do=Macro
+.\src\ms_d_flip_flop\tb\ms_d_flip_flop_tb.vhd=VHDL Source Code
+.\src\d_flip_flop\d_flip_flop.vhd=VHDL Source Code
+.\src\d_flip_flop\tb\d_flip_flop_tb_runtest.do=Macro
+.\src\d_flip_flop\tb\d_flip_flop_tb.vhd=VHDL Source Code
+.\src\gated_d_flip_flop\gated_d_flip_flop.vhd=VHDL Source Code
+.\src\gated_d_flip_flop\tb\gated_d_flip_flop_tb_runtest.do=Macro
+.\src\gated_d_flip_flop\tb\gated_d_flip_flop_tb.vhd=VHDL Source Code
+
