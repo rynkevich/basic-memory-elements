@@ -35,4 +35,5 @@ begin
 	
 	D <= not D after DATA_PERIOD / 2;
 	E <= not E after ENABLED_PERIOD / 2;
+	Error <= get_error(Q_beh, Q_struct, nQ_beh, nQ_struct);
 end tb;

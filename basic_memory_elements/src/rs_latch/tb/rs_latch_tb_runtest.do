@@ -1,6 +1,6 @@
 SetActiveLib -work
 comp -include "$dsn\src\rs_latch\rs_latch.vhd" 
-comp -include "$dsn\src\rs_latch\tb\rs_latch.vhd"
+comp -include "$dsn\src\rs_latch\tb\rs_latch_tb.vhd"
 asim +access +r rs_latch_tb tb
 
 wave

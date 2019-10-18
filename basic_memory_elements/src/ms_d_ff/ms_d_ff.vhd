@@ -1,14 +1,14 @@
 library ieee;
 use ieee.std_logic_1164.all;	  
 
-entity ms_d_flip_flop is
+entity ms_d_ff is
 	port(
 		D, CLK: in std_logic;
 		Q, nQ: out std_logic
 	);
-end ms_d_flip_flop;
+end ms_d_ff;
 
-architecture structural of ms_d_flip_flop is
+architecture structural of ms_d_ff is
 	component gated_d_latch is
 		port(
 			D, E: in std_logic;

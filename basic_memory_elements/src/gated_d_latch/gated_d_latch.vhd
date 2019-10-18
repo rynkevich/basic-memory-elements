@@ -10,12 +10,15 @@ end gated_d_latch;
 
 architecture behavioral of gated_d_latch is
 begin
-	process (E)
+	process (E, D)
+		variable Temp: std_logic;
 	begin
 		if E = '1' then
-			Q <= D;
-			nQ <= not D;
+			Temp := D;
 		end if;
+		
+		Q <= Temp;
+		nQ <= not Temp;
 	end process;
 end behavioral;
 
